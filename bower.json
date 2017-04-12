@@ -1,0 +1,17 @@
+{
+  "name": "library",
+  "description": "practice",
+  "main": "app.js",
+  "authors": [
+    "Xavier <xieyuehao@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hanxuema/Node",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
