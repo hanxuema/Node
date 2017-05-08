@@ -1,12 +1,16 @@
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
+var jscs = require('gulp-jscs');
+
 var jsFiles = ['*.js', 'src/**/*.js'];
 
+
 gulp.task('style', function () {
+    //return this string so that we can use this in other tasks
     return gulp.src(jsFiles)
         .pipe(jshint())
-        .pipe(jshint.report('jshint-styleish', {
+        .pipe(jshint.reporter('jshint-stylish', {
             verbose: true
         }))
         .pipe(jscs());
-})
+});
