@@ -1,0 +1,6 @@
+// directory tells the bower install where to install the package
+// eg: bower install --save bootstarp 
+
+{
+    "directory": "public/lib" 
+}
